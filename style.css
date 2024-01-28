@@ -1,0 +1,185 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+.container{
+    width: 700px;
+    height: 1750px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+   
+}
+img{
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+}
+.recipe-name{
+    font-size: 40px;
+    font-family:Young Serif ;
+    font-weight: 100;
+    margin: 25px 0px;
+}
+p{
+    font-family: Outfit ;
+    color:hsl(13, 4%, 42%) ;
+    width: 650px;
+    font-size: 16px;
+    margin: 0px 0px 50px 0px;
+}
+.details{
+    background-color:hsl(334, 31%, 90%) ;
+    height: 120px;
+    padding: 15px;
+    width: 650px;
+    border-radius: 10px;
+    margin: 0 0 45px 0;
+  
+}
+.time-details{
+    margin: 0 0 0 30px;
+    font-family:Outfit ;
+    color: hsl(332, 51%, 32%) ;
+    font-size: 18px;
+}
+.firstul{
+    margin: 10px 0 0 15px;
+    font-family:Outfit ;
+    color: hsl(30, 30%, 36%);
+
+}
+.firstul div, ol div, .thirdul div {
+    display: inline-block;
+    font-weight: 600;
+    margin: 0 0 0 10px;
+}
+.firstul li{
+    margin: 7px;
+}
+.Ingredients{
+    font-family:Young Serif ;
+    color: hsl(30, 37%, 37%);
+    font-size: 30px;
+    margin: 0 0 0 10px;
+    font-weight: 200;
+}
+.secondul li{
+    font-family: Outfit;
+    color:hsl(34, 4%, 39%);
+    margin: 0 0 10px 0px;
+}
+.hr-1,.hr-2 {
+    margin: 35px 0px;
+    width: 670px;
+    opacity: 0.21;
+}
+.instructions,.nutrition{
+    font-family:Young Serif ;
+    color: hsl(30, 37%, 37%);
+    font-size: 30px;
+    margin: 0 0 0 10px;
+    font-weight: 400;
+}
+ol{
+    margin: 0px 0 0 15px;
+    font-family:Outfit;
+    color: hsl(30, 30%, 36%);
+}
+ol li{
+    margin: 20px 0 0 0 ;
+    width: 600px;
+}
+.thirdul hr{
+    margin: 15px 0px;
+    width: 650px;
+    opacity: 0.2;
+}
+.thirdul{
+    list-style: none;
+    font-family:Outfit;
+    color:  hsl(12, 4%, 46%);
+    font-size: 18px;
+    position: relative;
+}
+.thirdul div{
+    color: hsl(332, 48%, 39%) ;
+    font-weight: 700;
+    position: absolute;
+    left: 350px;
+}
+.p1{
+    font-size: 18px;
+    margin: 15px;
+    color: rgb(138, 135, 96);
+}
+@media screen and (max-width:565px) {
+   
+    .container{
+        width: 350px;
+        border-radius: 5px;
+        padding: 0px;
+        height: 2100px;
+    }
+    img{
+        width: 350px;
+        border-radius: 5px;
+        height: 200px;
+    }
+    .recipe-name{
+        font-size: 30px;
+        margin: 25px;
+        text-align: center;
+    }
+    p{
+        width: 310px;
+        font-size: 16px;
+        margin: 0px 0px 25px 28px;  
+        line-height: 22px;
+    }
+    .details{
+        width: 320px;
+        border-radius: 0px;
+    }
+    .Ingredients{
+        margin: 0 0 0 40px;
+    }
+    .secondul li{
+        font-family: Outfit;
+        color:hsl(34, 4%, 39%);
+        margin: 0 0 10px 30px;
+        width: 250px;
+    }
+    .instructions,.nutrition{
+        margin: 0 0 0 30px;
+    }
+    ol li{
+        margin: 20px 0 0 0 ;
+        width: 280px;
+    }
+    .hr-1,.hr-2  {
+        margin: 35px 25px;
+        width: 300px;
+        opacity: 0.31;
+    }
+    .p1{
+        font-size: 15px;
+        margin: 28px;
+      
+        width: 280px;
+    }
+    .thirdul div{
+        left: 200px;
+    }
+    .thirdul{
+        font-size: 16px;
+    }
+    .thirdul hr{
+        margin: 15px 0px;
+        width: 250px;
+        opacity: 0.3;
+    }
+}
